@@ -20,7 +20,7 @@ Ao abrir o jogo, você verá o menu inicial com as opções **Instruções**, **
 2. **Movimentação**  
 Use **W, A, S, D** para mover o personagem pelo labirinto. O objetivo é coletar itens e alcançar a bandeira (🚩).  
 
-![Jogando](img/img(2).png)
+![Jogando](img/img (2).png)
 
 3. **Vitória**  
 Ao alcançar a bandeira, o jogo exibirá a tela de vitória, mostrando sua pontuação final.  
