@@ -15,7 +15,7 @@ O jogo toca música de fundo automaticamente, que pode ser desativada com a opç
 1. **Menu Inicial**  
 Ao abrir o jogo, você verá o menu inicial com as opções **Instruções**, **Jogar** ou **Sair**.  
 
-![Tela Inicial]()
+![Tela Inicial](modulo1/aventura_no_labirinto/img/img.png)
 
 2. **Movimentação**  
 Use **W, A, S, D** para mover o personagem pelo labirinto. O objetivo é coletar itens e alcançar a bandeira (🚩).  
