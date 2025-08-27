@@ -25,12 +25,12 @@ Use **W, A, S, D** para mover o personagem pelo labirinto. O objetivo é coletar
 3. **Vitória**  
 Ao alcançar a bandeira, o jogo exibirá a tela de vitória, mostrando sua pontuação final.  
 
-![Vitória](img/img2.png)
+![Vitória](img/img3.png)
 
 4. **Derrota**  
 A tela de derrota aparece somente se o jogador perder durante a partida.  
 
-![Saida](img/img2.png)
+![Saida](img/img4.png)
 
 ---
 
