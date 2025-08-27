@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module aventura_pkg.jogador</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title"><a href="aventura_pkg.html" class="white">aventura_pkg</a>.jogador</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cpdbd4356%5Cdesktop%5Cprojeto%20desenvolve%5Cpython-ii%5Caventura_no_labirinto%5Caventura_pkg%5Cjogador.py">c:\users\pdbd4356\desktop\projeto desenvolve\python-ii\aventura_no_labirinto\aventura_pkg\jogador.py</a></td></tr></table>
+    <p><span class="code"><a href="#Jogador">Jogador</a>&nbsp;do&nbsp;jogo&nbsp;'Aventura&nbsp;no&nbsp;Labirinto'.<br>
+=======================================<br>
+&nbsp;<br>
+Classe&nbsp;e&nbsp;funções&nbsp;para&nbsp;movimentar&nbsp;o&nbsp;jogador,&nbsp;coletar&nbsp;itens&nbsp;e&nbsp;atualizar&nbsp;pontuação.</span></p>
+<p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="aventura_pkg.jogador.html#Jogador">Jogador</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Jogador">class <strong>Jogador</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Representa&nbsp;o&nbsp;jogador&nbsp;no&nbsp;labirinto.<br>
+&nbsp;<br>
+Atributos<br>
+----------<br>
+y&nbsp;:&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Linha&nbsp;atual&nbsp;do&nbsp;jogador.<br>
+x&nbsp;:&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Coluna&nbsp;atual&nbsp;do&nbsp;jogador.<br>
+pontos&nbsp;:&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Pontuação&nbsp;acumulada.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Jogador-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Inicializa&nbsp;o&nbsp;jogador&nbsp;na&nbsp;posição&nbsp;(1,1)&nbsp;com&nbsp;pontuação&nbsp;0.</span></dd></dl>
+
+<dl><dt><a name="Jogador-get_posicao"><strong>get_posicao</strong></a>(self) -&gt; tuple[int, int]</dt><dd><span class="code">Retorna&nbsp;a&nbsp;posição&nbsp;atual&nbsp;do&nbsp;jogador.<br>
+&nbsp;<br>
+Retorna<br>
+-------<br>
+tuple[int,&nbsp;int]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Tupla&nbsp;(linha,&nbsp;coluna)&nbsp;da&nbsp;posição.</span></dd></dl>
+
+<dl><dt><a name="Jogador-mover"><strong>mover</strong></a>(self, direcao: str, lab: list[list[str]]) -&gt; None</dt><dd><span class="code">Move&nbsp;o&nbsp;jogador&nbsp;no&nbsp;labirinto&nbsp;se&nbsp;não&nbsp;houver&nbsp;parede.<br>
+&nbsp;<br>
+Parâmetros<br>
+----------<br>
+direcao&nbsp;:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Direção&nbsp;do&nbsp;movimento&nbsp;("UP",&nbsp;"DOWN",&nbsp;"LEFT",&nbsp;"RIGHT").<br>
+lab&nbsp;:&nbsp;list[list[str]]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Labirinto&nbsp;para&nbsp;checar&nbsp;colisões.<br>
+&nbsp;<br>
+Retorna<br>
+-------<br>
+None</span></dd></dl>
+
+<dl><dt><a name="Jogador-pontuar"><strong>pontuar</strong></a>(self, pontos: int = 1) -&gt; None</dt><dd><span class="code">Atualiza&nbsp;a&nbsp;pontuação&nbsp;do&nbsp;jogador.<br>
+&nbsp;<br>
+Parâmetros<br>
+----------<br>
+pontos&nbsp;:&nbsp;int,&nbsp;opcional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Pontos&nbsp;a&nbsp;adicionar&nbsp;(default=1).<br>
+&nbsp;<br>
+Retorna<br>
+-------<br>
+None</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
